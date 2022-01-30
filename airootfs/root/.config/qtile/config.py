@@ -111,9 +111,9 @@ for i in groups:
     ])
 
 layouts = [
-   # layout.Columns(border_focus_stack=['#000000', '#ffffff'], border_width=5, margin=8),
+   # layout.Columns(border_focus_stack=['#ff6060', '#ffffff'], border_width=5, margin=8),
     #layout.Max(),
-    # Try more layouts by unleashing below layouts.
+  # Try more layouts by unleashing below layouts.
     # layout.Stack(num_stacks=2),
      layout.Bsp(margin=8),
     # layout.Matrix(),
@@ -127,7 +127,14 @@ layouts = [
 ]
 
 widget_defaults = dict(
-    font='sans',
+    font='JetBrains Mono Bold',
+    fontsize=12,
+    padding=3,
+)
+extension_defaults = widget_defaults.copy()
+
+widget_defaults = dict(
+    font='JetBrains Mono Bold',
     fontsize=12,
     padding=3,
 )
@@ -137,22 +144,36 @@ screens = [
     Screen(
         top=bar.Bar(
             [
+<<<<<<< HEAD
+                widget.CurrentLayout(padding=20, background="#ff6060"),
+                widget.GroupBox(padding=20,foreground="#ff3737",background='#ff6060'),
+                widget.TextBox(padding=0, fontsize='62', text='', foreground='#ff6060'),
+                widget.Prompt(padding=20),
+                widget.WindowName(padding=20),
+=======
                 widget.CurrentLayout(padding=10),
                 widget.GroupBox(padding=10,foreground="#ffffff"),
                 widget.Prompt(padding=10),
                 widget.WindowName(padding=10),
+>>>>>>> a171c90bc9a8a46cd8253a0690acf2d6dc1a9712
                 widget.Chord(
                     chords_colors={
                         'launch': ("#ff0000", "#ffffff"),
                     },
                     name_transform=lambda name: name.upper(),
                 ),
+<<<<<<< HEAD
+                widget.TextBox(padding=0, text="", fontsize="76", foreground="#ff6060"),
+                # systray crashes for some reason so i removed it
+                #widget.Systray(padding=20, background="#ff6060"),
+=======
                 widget.Systray(padding=10),
+>>>>>>> a171c90bc9a8a46cd8253a0690acf2d6dc1a9712
                 #widget.Volume(padding=0),
-                widget.Clock(format='%Y-%m-%d %a %I:%M %p', padding=20,)
+                widget.Clock(format='%Y-%m-%d %a %I:%M %p', padding=20,background="#ff6060")
                # widget.QuickExit(),
             ],
-            24, background=["#ff3737", "#fc2323"]
+            24, background="#fc0000"
         ),
     ),
 ]

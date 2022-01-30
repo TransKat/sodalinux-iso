@@ -65,6 +65,8 @@ window:
   # Window title
   title: Alacritty
 
+  window.opacity: 0.8
+
   # Window class (Linux/BSD only):
   class:
     # Application instance name
