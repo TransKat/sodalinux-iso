@@ -1,4 +1,4 @@
-# sodalinux-iso
+# qtile-sodalinux-iso
 
 The Qtile ISO profile for Soda Linux. This profile is intended to be used with [archiso.](https://github.com/archlinux/archiso) 
 
