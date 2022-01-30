@@ -125,31 +125,33 @@ soda-calamares-config
 # custom packages
 yay
 update-grub
-orchis-soda
-papirus-soda
+#orchis-soda
+#papirus-soda
 xcursor-simp1e
 neofetch-git
-gnome-shell-extension-gamemode-git
-soda-panel
-soda-arcmenu
+#gnome-shell-extension-gamemode-git
+#soda-panel
+#soda-arcmenu
 gamemode
 lib32-gamemode
 octopi
-qgnomeplatform
+#qgnomeplatform
 
 # Live environment base packages
+alacritty
 acpi
 acpid
 aspell-en
 bluez-tools
 bluez-utils
 eog
+dmenu
 file-roller
 gparted
-gnome
-gnome-tweaks
-gdm
-gnome-software-packagekit-plugin
+#gnome
+#gnome-tweaks
+#gdm
+#gnome-software-packagekit-plugin
 archlinux-appstream-data
 flatpak
 intel-media-driver
@@ -162,8 +164,11 @@ mesa-vdpau
 mobile-broadband-provider-info
 mousetweaks
 network-manager-applet
+nitrogen
 nss-mdns
-polkit-gnome
+picom
+#polkit-gnome
+qtile
 samba
 xdg-user-dirs-gtk
 xf86-input-evdev
@@ -190,9 +195,9 @@ gst-plugin-pipewire
 
 # Live environment extras
 fprintd
-gedit-plugins
+#gedit-plugins
 gsmartcontrol
-nautilus-image-converter
+#nautilus-image-converter
 networkmanager-openconnect
 networkmanager-openvpn
 networkmanager-pptp
