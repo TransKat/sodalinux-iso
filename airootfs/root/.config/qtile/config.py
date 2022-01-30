@@ -189,12 +189,6 @@ reconfigure_screens = True
 # focus, should we respect this or not?
 auto_minimize = True
 
-#startup hooks
-@hook.subscribe.startup_once
-def autostart():
-    home = os.path.expanduser('~')
-    subprocess.Popen([home + '/.config/qtile/autostart.sh])
-
 # XXX: Gasp! We're lying here. In fact, nobody really uses or cares about this
 # string besides java UI toolkits; you can see several discussions on the
 # mailing lists, GitHub issues, and other WM documentation that suggest setting
