@@ -1,6 +1,6 @@
 # sodalinux-iso
 
-The official ISO profile for Soda Linux. This profile is intended to be used with [archiso.](https://github.com/archlinux/archiso) 
+The Qtile ISO profile for Soda Linux. This profile is intended to be used with [archiso.](https://github.com/archlinux/archiso) 
 
 
 # FAQ
