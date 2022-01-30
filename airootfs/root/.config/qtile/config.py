@@ -137,17 +137,17 @@ screens = [
     Screen(
         top=bar.Bar(
             [
-                widget.CurrentLayout(padding=20),
-                widget.GroupBox(padding=20,foreground="#ffffff"),
-                widget.Prompt(padding=20),
-                widget.WindowName(padding=20),
+                widget.CurrentLayout(padding=10),
+                widget.GroupBox(padding=10,foreground="#ffffff"),
+                widget.Prompt(padding=10),
+                widget.WindowName(padding=10),
                 widget.Chord(
                     chords_colors={
                         'launch': ("#ff0000", "#ffffff"),
                     },
                     name_transform=lambda name: name.upper(),
                 ),
-                widget.Systray(padding=20),
+                widget.Systray(padding=10),
                 #widget.Volume(padding=0),
                 widget.Clock(format='%Y-%m-%d %a %I:%M %p', padding=20,)
                # widget.QuickExit(),
